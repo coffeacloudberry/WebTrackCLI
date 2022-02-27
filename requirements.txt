@@ -1,0 +1,3 @@
+git+https://github.com/tkrajina/gpxpy.git
+click
+requests

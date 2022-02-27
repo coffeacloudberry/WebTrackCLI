@@ -1,0 +1,13 @@
+.gpx
+
+# Python stuff
+*.pyc
+venv/
+
+# Generated stuff
+cache/
+htmlcov/
+
+# All hidden stuff
+.*
+*~
