@@ -15,7 +15,7 @@ The DEM is mainly based on SRTM 3" with a custom voidfill algorithm and the comb
 
 More information: [3"](http://viewfinderpanoramas.org/dem3.html) and [1"](http://viewfinderpanoramas.org/dem1.html) links.
 
-## SRTMGL1 v3
+## SRTMGL1 v3 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m788629198-fb02c8547f60cd66a8245b6b)](https://stats.uptimerobot.com/3JW84TmQoB/788629198)
 
 The world-famous dataset provided by the LP DAAC located at the U.S. DoI, USGS EROS Center in Sioux Falls. The German and Italian space agencies also collaborated in the SRTM data sets to generate a DEM of the Earth using radar interferometry.
 
@@ -28,7 +28,7 @@ The world-famous dataset provided by the LP DAAC located at the U.S. DoI, USGS E
 
 More information: https://lpdaac.usgs.gov/products/srtmgl1v003/
 
-## ASTGTM v3
+## ASTGTM v3 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m788629198-fb02c8547f60cd66a8245b6b)](https://stats.uptimerobot.com/3JW84TmQoB/788629198)
 
 The ASTGTM dataset is a collaborative effort between NASA and Japan's METI. Released in 2019, it is the latest publicly available dataset. Voids are filled by interpolation with Aster GDEM, PRISM, SRTM. The dataset includes a layer indicating the actual source of the data.
 
@@ -41,7 +41,7 @@ The ASTGTM dataset is a collaborative effort between NASA and Japan's METI. Rele
 
 More information: https://lpdaac.usgs.gov/products/astgtmv003/
 
-## Mapbox
+## Mapbox [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m788439767-405f52c193c27cdc11835ebd)](https://stats.uptimerobot.com/3JW84TmQoB/788439767)
 
 Includes commercial terrain data as well as open government data. The elevation lines and 3D terrain in the interactive map are based on the Mapbox dataset but the elevation profiles only use the above sources.
 
