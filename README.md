@@ -21,13 +21,38 @@ No benchmark, but the result is good enough:
 ## Prerequisites
 
 * Python 3.9,
-* NASA EarthData account - to access the SRTMGL1 v3 and ASTGTM v3 datasets,
 * GDAL for Python - to handle GeoTIFF images from ASTGTM v3,
 * Jonathan de Ferranti HGT files - if using that dataset.
 
 > If GDAL is installed system-wide, configure the virtual environment to also use the global site packages.
 
 > For the Jonathan de Ferranti dataset, please download it yourself and put it in the cache folder with the file format: *N64E025_JdF1.hgt* if setting *JdF1* as input parameter.
+
+* To access the SRTMGL1 v3 and ASTGTM v3 datasets, you need to accept the terms:
+
+```
+********************************************************************************
+
+                         U.S. GOVERNMENT COMPUTER
+
+This US Government computer is for authorized users only.  By accessing this
+system you are consenting to complete monitoring with no expectation of privacy.
+Unauthorized access or use may subject you to disciplinary action and criminal
+prosecution.
+
+Attention user: You are downloading data from NASA's Land Processes Distributed
+Active Archive Center (LP DAAC) located at the USGS Earth Resources Observation and
+Science (EROS) Center.
+
+Downloading these data requires a NASA Earthdata Login username and password.
+To obtain a NASA Earthdata Login account, please visit
+https://urs.earthdata.nasa.gov/users/new/.
+
+For more information about the data you are downloading, including documentation
+and how to properly cite the data, please visit https://lpdaac.usgs.gov/.
+
+********************************************************************************
+```
 
 ## Install for Dev
 
